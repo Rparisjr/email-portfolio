@@ -1,7 +1,7 @@
 
 # 📬 Robert Paris Jr. – Email Developer Portfolio
 
-Welcome to my portfolio! I'm an Email Developer with 3+ years of hands-on experience designing, coding, and testing responsive email campaigns for brands like **Sonos**, **Lyft**, and **Duolingo**.
+Welcome to my portfolio! I'm a Freelancer Email Developer with 3+ years of hands-on experience designing, coding, and testing responsive email campaigns for brands like **Sonos**, **Lyft**, and **Duolingo**.
 
 This portfolio showcases my ability to craft clean, accessible, and high-converting email templates using **HTML, CSS**, and tools like **Email on Acid**, **Litmus**, and **Dreamweaver**. Each project includes real-world email builds with tested results and mobile optimization.
 
