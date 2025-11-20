@@ -29,6 +29,37 @@
       margin: 0.25rem 0;
     }
 
+    .name-badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      border: 1px solid #444;
+      font-size: 0.85rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+      color: #ddd;
+    }
+
+    .contact-btn {
+      display: inline-block;
+      margin-top: 0.75rem;
+      padding: 0.5rem 1.25rem;
+      border-radius: 999px;
+      border: none;
+      background-color: #f0b429;
+      color: #222 !important;
+      font-weight: bold;
+      font-size: 0.95rem;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .contact-btn:hover {
+      text-decoration: none;
+      background-color: #ffc857;
+    }
+
     main {
       padding: 1.5rem;
       max-width: 900px;
@@ -60,7 +91,7 @@
       width: 100%;
       max-width: 600px;
       height: 260px;              /* equal height thumbnails */
-      object-fit: cover;          /* crop nicely */
+      object-fit: cover;          /* crops nicely */
       display: block;
       margin-top: 0.75rem;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -83,6 +114,25 @@
 
     .project-links a:hover {
       text-decoration: underline;
+    }
+
+    .project-badges {
+      margin-top: 0.5rem;
+      font-size: 0.85rem;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.15rem 0.6rem;
+      border-radius: 999px;
+      background-color: #f0f0f0;
+      margin-right: 0.35rem;
+      margin-top: 0.25rem;
+      font-size: 0.8rem;
+    }
+
+    .skills-badges {
+      margin-top: 0.75rem;
     }
 
     a {
@@ -114,6 +164,7 @@
 </head>
 <body>
   <header>
+    <div class="name-badge">RPJ · Email Developer</div>
     <h1>Robert Paris Jr.</h1>
     <p>HTML Email Developer · Responsive, Tested, Cross-Client Campaigns</p>
     <p>
@@ -122,6 +173,7 @@
       <a href="https://www.linkedin.com/in/robertparisjr206/" target="_blank" rel="noopener noreferrer" style="color:#ccc;">LinkedIn</a> |
       <a href="robertparisjr_resume_.pdf" target="_blank" rel="noopener noreferrer" style="color:#ccc;">Download My Resume (PDF)</a>
     </p>
+    <a class="contact-btn" href="mailto:robertjparisjr@gmail.com?subject=Email%20Developer%20Opportunity">📨 Contact Me</a>
   </header>
 
   <main>
@@ -143,6 +195,13 @@
         <li><strong>Platforms:</strong> Mailchimp, Microsoft 365</li>
         <li><strong>Core Strengths:</strong> Responsive design, attention to detail, problem solving</li>
       </ul>
+      <div class="skills-badges">
+        <span class="badge">📧 HTML Email</span>
+        <span class="badge">📱 Responsive Layouts</span>
+        <span class="badge">🌙 Dark Mode Aware</span>
+        <span class="badge">🧪 Litmus &amp; Email on Acid</span>
+        <span class="badge">📊 Campaign QA</span>
+      </div>
     </section>
 
     <section>
@@ -161,10 +220,17 @@
         <h3>Sonos – Father's Day Campaign</h3>
         <p>
           Fully responsive two-column promotional email coded in HTML and CSS.
-          <br><br></p>
+          <br><br>
+          Click image to view full project.
+        </p>
         <a href="Sonos_rp_.html" target="_blank" rel="noopener noreferrer">
           <img src="https://i.postimg.cc/BbrZnFX1/hero-sonos.jpg" alt="Sonos Father's Day promotional email preview">
         </a>
+        <div class="project-badges">
+          <span class="badge">📱 Responsive</span>
+          <span class="badge">🌙 Dark Mode Friendly</span>
+          <span class="badge">🧪 Tested</span>
+        </div>
         <div class="project-links">
           <a href="Sonos_rp_.html" target="_blank" rel="noopener noreferrer">🔗 View Live</a>
           <a href="https://github.com/Rparisjr/email-portfolio/blob/main/Sonos_rp_.html" target="_blank" rel="noopener noreferrer">💻 View Code</a>
@@ -175,10 +241,17 @@
         <h3>Lyft – 10% Off Promo</h3>
         <p>
           Responsive single-column promotional email tested across major email clients.
-          <br><br></p>
+          <br><br>
+          Click image to view full project.
+        </p>
         <a href="Lyft_RP.html" target="_blank" rel="noopener noreferrer">
           <img src="https://i.postimg.cc/m2cqHbf5/Lyft-Hero.png" alt="Lyft 10% off promo email preview">
         </a>
+        <div class="project-badges">
+          <span class="badge">📱 Responsive</span>
+          <span class="badge">🌙 Dark Mode Friendly</span>
+          <span class="badge">🧪 Tested</span>
+        </div>
         <div class="project-links">
           <a href="Lyft_RP.html" target="_blank" rel="noopener noreferrer">🔗 View Live</a>
           <a href="https://github.com/Rparisjr/email-portfolio/blob/main/Lyft_RP.html" target="_blank" rel="noopener noreferrer">💻 View Code</a>
@@ -189,10 +262,17 @@
         <h3>Duolingo – 1st Year Duoversary</h3>
         <p>
           Responsive milestone email using rounded-corner bordered tables and a custom layout.
-          <br><br></p>
+          <br><br>
+          Click image to view full project.
+        </p>
         <a href="Duolingo_rp_.html" target="_blank" rel="noopener noreferrer">
           <img src="https://i.postimg.cc/FHkgCCfZ/duoversary-1.png" alt="Duolingo anniversary email preview">
         </a>
+        <div class="project-badges">
+          <span class="badge">📱 Responsive</span>
+          <span class="badge">🌙 Dark Mode Friendly</span>
+          <span class="badge">🧪 Tested</span>
+        </div>
         <div class="project-links">
           <a href="Duolingo_rp_.html" target="_blank" rel="noopener noreferrer">🔗 View Live</a>
           <a href="https://github.com/Rparisjr/email-portfolio/blob/main/Duolingo_rp_.html" target="_blank" rel="noopener noreferrer">💻 View Code</a>
@@ -203,10 +283,17 @@
         <h3>Sundays For Dogs – Air-Dried Dog Food</h3>
         <p>
           Mobile-responsive promotional email featuring custom typography and a clean, product-focused layout.
-          <br><br></p>
+          <br><br>
+          Click image to view full project.
+        </p>
         <a href="Sundays_RP_.html" target="_blank" rel="noopener noreferrer">
-          <img src="https://i.postimg.cc/8zsncVL4/Sundays-header-slice-2.png" alt="Sundays For Dogs promotional email preview">
+          <img src="YOUR-SUNDAYS-IMAGE-URL-HERE" alt="Sundays For Dogs promotional email preview">
         </a>
+        <div class="project-badges">
+          <span class="badge">📱 Responsive</span>
+          <span class="badge">🌙 Dark Mode Friendly</span>
+          <span class="badge">🧪 Tested</span>
+        </div>
         <div class="project-links">
           <a href="Sundays_RP_.html" target="_blank" rel="noopener noreferrer">🔗 View Live</a>
           <a href="https://github.com/Rparisjr/email-portfolio/blob/main/Sundays_RP_.html" target="_blank" rel="noopener noreferrer">💻 View Code</a>
