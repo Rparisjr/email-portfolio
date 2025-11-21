@@ -90,8 +90,8 @@
     .project img {
       width: 100%;
       max-width: 600px;
-      height: 260px;              /* equal height thumbnails */
-      object-fit: cover;          /* crops nicely */
+      height: 260px;
+      object-fit: cover;
       display: block;
       margin-top: 0.75rem;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -99,7 +99,7 @@
 
     .project a:hover img {
       transform: scale(1.01);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
 
     .project-links {
@@ -117,7 +117,7 @@
     }
 
     .project-badges {
-      margin-top: 0.5rem;
+      margin-top: 0.6rem;
       font-size: 0.85rem;
     }
 
@@ -126,13 +126,13 @@
       padding: 0.15rem 0.6rem;
       border-radius: 999px;
       background-color: #f0f0f0;
-      margin-right: 0.35rem;
-      margin-top: 0.25rem;
+      margin: 0.3rem 0.35rem 0 0;
       font-size: 0.8rem;
     }
 
     .skills-badges {
-      margin-top: 0.75rem;
+      margin-top: 1rem;
+      line-height: 2;         /* 👍 adds spacing between lines */
     }
 
     a {
@@ -215,12 +215,39 @@
 
     <section>
       <h2>Projects</h2>
+      <p><em>Below are selected HTML email builds coded from scratch and tested across major email clients.</em></p>
+
+      <!-- ⭐ SUNDAYS FIRST ⭐ -->
+      <div class="project">
+        <h3>Sundays For Dogs – Air-Dried Dog Food</h3>
+        <p>
+          Mobile-responsive promotional email featuring custom typography and a clean, product-focused layout.
+          <br><br>
+          Click image to view full project.
+        </p>
+        <a href="Sundays_RP_.html" target="_blank" rel="noopener noreferrer">
+          <img src="YOUR-SUNDAYS-IMAGE-URL-HERE" alt="Sundays For Dogs promotional email preview">
+        </a>
+        <div class="project-badges">
+          <span class="badge">📱 Responsive</span>
+          <span class="badge">🌙 Dark Mode Friendly</span>
+          <span class="badge">🧪 Tested</span>
+        </div>
+        <div class="project-links">
+          <a href="Sundays_RP_.html" target="_blank" rel="noopener noreferrer">🔗 View Live</a>
+          <a href="https://github.com/Rparisjr/email-portfolio/blob/main/Sundays_RP_.html" target="_blank" rel="noopener noreferrer">💻 View Code</a>
+        </div>
+      </div>
+
+      <!-- NEXT PROJECTS -->
 
       <div class="project">
         <h3>Sonos – Father's Day Campaign</h3>
         <p>
           Fully responsive two-column promotional email coded in HTML and CSS.
-          <br><br></p>
+          <br><br>
+          Click image to view full project.
+        </p>
         <a href="Sonos_rp_.html" target="_blank" rel="noopener noreferrer">
           <img src="https://i.postimg.cc/BbrZnFX1/hero-sonos.jpg" alt="Sonos Father's Day promotional email preview">
         </a>
@@ -239,7 +266,9 @@
         <h3>Lyft – 10% Off Promo</h3>
         <p>
           Responsive single-column promotional email tested across major email clients.
-          <br><br></p>
+          <br><br>
+          Click image to view full project.
+        </p>
         <a href="Lyft_RP.html" target="_blank" rel="noopener noreferrer">
           <img src="https://i.postimg.cc/m2cqHbf5/Lyft-Hero.png" alt="Lyft 10% off promo email preview">
         </a>
@@ -258,7 +287,9 @@
         <h3>Duolingo – 1st Year Duoversary</h3>
         <p>
           Responsive milestone email using rounded-corner bordered tables and a custom layout.
-          <br><br></p>
+          <br><br>
+          Click image to view full project.
+        </p>
         <a href="Duolingo_rp_.html" target="_blank" rel="noopener noreferrer">
           <img src="https://i.postimg.cc/FHkgCCfZ/duoversary-1.png" alt="Duolingo anniversary email preview">
         </a>
@@ -270,25 +301,6 @@
         <div class="project-links">
           <a href="Duolingo_rp_.html" target="_blank" rel="noopener noreferrer">🔗 View Live</a>
           <a href="https://github.com/Rparisjr/email-portfolio/blob/main/Duolingo_rp_.html" target="_blank" rel="noopener noreferrer">💻 View Code</a>
-        </div>
-      </div>
-
-      <div class="project">
-        <h3>Sundays For Dogs – Air-Dried Dog Food</h3>
-        <p>
-          Mobile-responsive promotional email featuring custom typography and a clean, product-focused layout.
-          <br><br></p>
-        <a href="Sundays_RP_.html" target="_blank" rel="noopener noreferrer">
-          <img src="https://i.postimg.cc/8zsncVL4/Sundays-header-slice-2.png" alt="Sundays For Dogs promotional email preview">
-        </a>
-        <div class="project-badges">
-          <span class="badge">📱 Responsive</span>
-          <span class="badge">🌙 Dark Mode Friendly</span>
-          <span class="badge">🧪 Tested</span>
-        </div>
-        <div class="project-links">
-          <a href="Sundays_RP_.html" target="_blank" rel="noopener noreferrer">🔗 View Live</a>
-          <a href="https://github.com/Rparisjr/email-portfolio/blob/main/Sundays_RP_.html" target="_blank" rel="noopener noreferrer">💻 View Code</a>
         </div>
       </div>
 
